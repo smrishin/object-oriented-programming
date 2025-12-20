@@ -4,6 +4,6 @@ This is my personal repository which I use to practice Object Oriented Programmi
 
 ## Contents
 
-- Minesweeper Game
-- Snake Game
-- Financial Tracker
+- [Minesweeper Game](minesweeper/minesweeper.md)
+- [Snake Game](snake-game/snake-game.md)
+- [Financial Tracker](financial-tracker/financial-tracker.md)
