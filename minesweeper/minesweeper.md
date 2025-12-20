@@ -36,15 +36,23 @@ This game has two controllers:
 
 ## How to run the app
 
+### Web app
+
+- Uses Python and pyodide.ffi and pyscript
+
+With minesweeper folder as the root, run a httpserver
+
+```
+python -m http.server 8000
+```
+
 ### Tkinker app
 
-- Requires Python
+- Uses Python and Tkinker
 - All the external packages used come inbuild with python.
 
-From the root run main_tk in your terminal as a module
+With minesweeper folder as the root, run tk_app.main_tk in your terminal as a module
 
 ```
 python -m tk_app.main_tk
 ```
-
-### Web app

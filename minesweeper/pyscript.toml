@@ -1,0 +1,5 @@
+[files]
+"../model/__init__.py" = "model/__init__.py"
+"../model/cell.py" = "model/cell.py"
+"../model/board.py" = "model/board.py"
+"../model/gamestate.py" = "model/gamestate.py"

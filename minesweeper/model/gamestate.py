@@ -13,7 +13,7 @@ class GameState:
             self.started_at = time.time()
 
     def elapsed_seconds(self) -> int:
-        if self.started_at is -1:
+        if self.started_at == -1:
             return 0
         return int(time.time() - self.started_at)
     

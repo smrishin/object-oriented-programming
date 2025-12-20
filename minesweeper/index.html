@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Minesweeper</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- PyScript -->
+    <link
+      rel="stylesheet"
+      href="https://pyscript.net/releases/2024.1.1/core.css"
+    />
+    <script
+      type="module"
+      src="https://pyscript.net/releases/2024.1.1/core.js"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Minesweeper</h1>
+
+      <div class="topbar">
+        <select id="difficulty"></select>
+        <button id="reset">Reset</button>
+        <div class="info">
+          <span id="status">Status: ready</span>
+          <span id="meta">Mines: 10 | Flags: 0</span>
+        </div>
+      </div>
+
+      <div id="board" class="board"></div>
+    </div>
+    <script type="py" src="app.py" config="pyscript.toml"></script>
+
+    <py-script src="app.py"></py-script>
+  </body>
+</html>
